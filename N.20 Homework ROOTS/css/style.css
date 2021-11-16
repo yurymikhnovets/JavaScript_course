@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+}
+.block_homework {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	width: 500px;
+	background-color: #303030;
+	color:  white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.homework_btn {
+	color: #303030;
+	background-color: #f4ad49;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: 400;
+    width: 150px;
+}
+.homework_btn:hover, .homework_btn:focus {
+	background-color: #f5b75f;
+}
+.homework_btn:active {
+	background-color: #d69840;
+}
