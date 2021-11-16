@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.large_img img {
+    max-width: 100%;
+}
+.small_img {
+    display: flex;
+}
+.small_img img{
+    opacity: 0.8;
+    max-width: 20%;
+}
+.small_img img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
