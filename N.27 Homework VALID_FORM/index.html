@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework VALID_FORM</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <p>Для внесения вашего сайта в каталог, заполните форму :</p>
+        <form action="http://fe.it-academy.by/TestForm.php" method="post" name="validForm">
+            <div class="form-control">
+                <label for="developers">Разработчики :</label>
+                <input type="text" name="developers" id="developers">
+                <span class="errorMessage developersError"></span>
+            </div>
+            <div class="form-control">
+                <label for="title">Название сайта :</label>
+                <input type="text" name="title" id="title">
+                <span class="errorMessage titleError"></span>
+            </div>
+            <div class="form-control">
+                <label for="url">URL сайта :</label>
+                <input type="text" name="url" id="url">
+                <span class="errorMessage urlError"></span>
+            </div>
+            <div class="form-control">
+                <label for="startDate">Дата запуска сайта :</label>
+                <input type="date" name="startDate" id="startDate">
+                <span class="errorMessage startDateError"></span>
+            </div>
+            <div class="form-control">
+                <label for="persons">Посетителей в сутки :</label>
+                <input type="text" name="persons" id="persons">
+                <span class="errorMessage personsError"></span>
+            </div>
+            <div class="form-control">
+                <label for="eMail">E-mail для связи :</label>
+                <input type="text" name="eMail" id="eMail">
+                <span class="errorMessage eMailError"></span>
+            </div>
+            <div class="form-control">
+                <label for="rubric">Рубрика каталога :</label>
+                <select name="rubric" id="rubric">
+                    <option value="0" selected>Выберите рубрику</option>
+                    <option value="1">Бытовая техника</option>
+                </select>
+                <span class="errorMessage rubricError"></span>
+            </div>
+            <div class="form-control">
+                <label for="placement">Размещение :</label>
+                <input type="radio" name="placement" id="placement" value="1"><span>Бесплатное</span>
+                <input type="radio" name="placement" id="placement" value="2"><span>Платное</span>
+                <input type="radio" name="placement" id="placement" value="3"><span>VIP</span>
+                <span class="errorMessage placementError"></span>
+            </div>
+            <div class="form-control">
+                <label for="comments">Разрешить отзывы :</label>
+                <input type="checkbox" name="comments" id="comments">
+                <span class="errorMessage commentsError"></span>
+            </div>
+            <div class="form-control">
+                <label for="description">Описание сайта :</label><br>
+                <textarea name="description" id="description" cols="100" rows="4"></textarea>
+                <span class="errorMessage descriptionError"></span>
+            </div>
+            <input type="submit" class="submitBtn" value="Опубликовать">
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

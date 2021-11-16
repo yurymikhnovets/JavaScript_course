@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.form-control label {
+    width: 200px;
+    display: inline-block;
+    padding: 5px;
+}
+.form-control input[type="text"] {
+    width: 400px;
+}
+.form-control textarea {
+    width: 620px;
+}
+.form-control-textarea label {
+    display: block;
+    padding: 5px;
+}
+.submitBtn {
+    margin-top: 5px;
+}
+.errorMessage {
+    color: red;
+}
