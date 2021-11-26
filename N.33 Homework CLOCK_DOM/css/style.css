@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0 0;
+}
+label {
+    display: block;
+    margin: 5px 0;
+}
+#clock {
+    position: relative;
+    margin: 0 auto;
+}
+#num-circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock-center,
+#hour-arrow,
+#minute-arrow,
+#second-arrow {
+    position: absolute;
+}
+#clock-date {
+    position: absolute;
+    text-align: center;
+}
